@@ -215,4 +215,4 @@ to extend the plugin.
 
 ## License
 
-TBD.
+[MIT](LICENSE). © 2026 Stefan Marx.

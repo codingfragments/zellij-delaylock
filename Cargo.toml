@@ -2,6 +2,10 @@
 name = "delaylock"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "Zellij plugin that auto-returns the session to Locked mode after a short idle timeout."
+repository = "https://github.com/codingfragments/zellij-delaylock"
+readme = "README.md"
 
 [dependencies]
 zellij-tile = "0.44.0"
