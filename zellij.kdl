@@ -1,0 +1,20 @@
+layout {
+    pane size=1 borderless=true {
+        plugin location="zellij:tab-bar"
+    }
+    pane edit="src/main.rs" size="80%"
+    pane
+    pane size=1 borderless=true {
+        plugin location="zellij:status-bar"
+    }
+    floating_panes {
+        pane {
+            plugin location="file:target/wasm32-wasip1/debug/delaylock.wasm" {
+                timeout_seconds "2.0"
+                target_mode "locked"
+                active_modes "normal,tmux"
+                logging "true"
+            }
+        }
+    }
+}
